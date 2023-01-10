@@ -10,14 +10,21 @@
 		<h1>Javascript</h1>
 		<button onclick="alert('Hello World')">Click Me</button>
 
-		<!-- <iframe
-			width="1000"
-			height="720"
-			src="https://www.youtube.com/embed/2Ji-clqUYnA"
-			title="Javascript Fundamentals"
-			frameborder="0"
-			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-			allowfullscreen
-		></iframe> -->
+		<button class="btn">Random Button</button>
+		<button class="btn">Random Button</button>
+		<button class="btn">Random Button</button>
+		<button class="btn">Random Button</button>
+		<button class="btn">Random Button</button>
+		<button class="btn">Random Button</button>
+		<button class="btn">Random Button</button>
 	</body>
+
+	<!-- internal Javascript  -->
+	<script>
+		document.querySelectorAll(".btn").forEach(item => {
+			item.addEventListener("click", () => {
+				alert("this is awesome")
+			})
+		})
+	</script>
 </html>
