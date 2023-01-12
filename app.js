@@ -1,9 +1,23 @@
 // Functions - declare, invoke
 
+function hello(fname) {
+	console.log("Morning", fname)
+}
+
+// greet Mike
+hello("Mike")
+
+// greet Jack
+hello("Jack")
+
+// greet Rateng
+hello("Rateng")
+
 function greetings() {
 	console.log("Hello Mine")
 	console.log("Hello Universe")
 	console.log("Hello World")
+	console.log("...")
 }
 
 greetings()
