@@ -1,11 +1,12 @@
 // Functions - declare, invoke
 
+const mike = "Mike"
 function hello(fname = "Jaka") {
-	console.log("Morning", fname)
+	console.log("Morning, how are you", fname + "?")
 }
 
 // greet Mike
-hello("Mike")
+hello(mike)
 
 // greet Jack
 hello("Jack")
