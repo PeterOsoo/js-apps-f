@@ -1,6 +1,6 @@
 // Functions - declare, invoke
 
-function hello(fname) {
+function hello(fname = "Jaka") {
 	console.log("Morning", fname)
 }
 
@@ -12,6 +12,8 @@ hello("Jack")
 
 // greet Rateng
 hello("Rateng")
+
+hello()
 
 function greetings() {
 	console.log("Hello Mine")
