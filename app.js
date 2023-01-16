@@ -1,16 +1,8 @@
-const person = {
-	name: "Jaka",
-	lastName: " Black",
-	age: 25,
-	education: false,
-	married: true,
-	siblings: ["Dok", "Wendy", "Peters"],
-	// greeting: function () {
-	greeting() {
-		console.log("Hello, my name is Jaka")
-	},
-}
+const num1 = 3
+const num2 = 5
 
-console.log(person.greeting())
-console.log(person.siblings[2])
-console.log(person.age)
+if (num1 > num2) {
+	console.log("Num 1 is bigger")
+} else {
+	console.log("Num 2 is bigger")
+}
