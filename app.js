@@ -1,5 +1,12 @@
 // Functions - declare, invoke
 
+function calculate(value) {
+	return value * 2.54
+}
+
+const height = calculate(200)
+console.log(height)
+
 const mike = "Mike"
 function hello(fname = "Jaka") {
 	console.log("Morning, how are you", fname + "?")
