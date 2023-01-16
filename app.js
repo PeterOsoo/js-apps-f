@@ -1,5 +1,11 @@
 // Functions - declare, invoke
 
+const multiply = (num1, num2) => num1 * num2
+
+const value = multiply(4, 5)
+console.log(value)
+
+// return
 function calculate(value) {
 	return value * 2.54
 }
