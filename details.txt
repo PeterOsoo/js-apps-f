@@ -4,3 +4,4 @@ January 2022
 10th - 1 hr 4 min 43 - Statements and comments
 11th 2 hrs done
 12th 3 hours done - Functions covered. Next return
+16th 4 hours done - Conditions. Next do while loop
