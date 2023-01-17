@@ -1,10 +1,13 @@
-let money = 0
+let text = "Rateng Daddy"
+let result = text.length
 
-do {
-	console.log("You have " + money + " Kshs")
-	money++
-} while (money < 11)
+console.log(result)
+console.log(text.toLowerCase())
+console.log(text.toUpperCase())
+console.log(text.indexOf("e"))
 
-for (let number = 0; number < 11; number++) {
-	console.log("This is Number " + number)
-}
+const fname = "jaka"
+const age = 45
+
+const sentence = `Hey my name is ${fname} and age is ${age} years old`
+console.log(sentence)
