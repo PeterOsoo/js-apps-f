@@ -6,3 +6,4 @@ January 2023
 12th 3 hours done - Functions covered. Next return
 16th 4 hours done - Conditions. Next do while loop
 17th 5 hours done - String & Array properties and methods, Template literals & exercise fullname
+18th 6 hours done - Total exercise, scope, spread operator, local & global scope, 
