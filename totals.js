@@ -14,3 +14,8 @@ const foodTotal = calculateTotal(food)
 
 console.log(gasTotal)
 console.log(foodTotal)
+
+console.log({
+	gas: gasTotal,
+	food: foodTotal,
+})
