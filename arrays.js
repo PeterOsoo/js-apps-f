@@ -11,6 +11,7 @@ const people = [
 
 function showPerson(person) {
 	console.log(person)
+	// console.log(person.position.toUpperCase())
 }
 
 people.forEach(showPerson)
