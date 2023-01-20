@@ -8,4 +8,9 @@ const youngPeople = people.filter(function (person) {
 	return person.age <= 26
 })
 
+const developer = people.filter(function (person) {
+	return person.position === "developer"
+})
+
 console.log(youngPeople)
+console.log(developer)
