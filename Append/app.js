@@ -18,3 +18,6 @@ result.appendChild(heading)
 const paragraph = document.createElement("h3")
 paragraph.innerText = "New Paragraph"
 result.appendChild(paragraph)
+
+const toRemove = document.querySelector("h4")
+toRemove.remove()
