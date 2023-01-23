@@ -28,5 +28,9 @@ const list = document.querySelectorAll(".normal")
 
 list.forEach(function (item) {
 	item.style.color = "blue"
-	console.log(item)
+	// console.log(item)
 })
+
+const last = document.querySelector(".last-last")
+const secondLast = last.previousSibling.previousSibling
+console.log(secondLast)
