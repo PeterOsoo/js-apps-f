@@ -14,3 +14,11 @@ const listItems = document.getElementsByClassName("special")
 console.log(listItems)
 
 listItems[2].style.color = "gray"
+
+// querySelector
+const result = document.querySelector("#result")
+console.log(result)
+result.style.color = "orange"
+
+const item = document.querySelector(".special")
+console.log(item)
