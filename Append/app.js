@@ -14,3 +14,7 @@ const headingText = document.createTextNode(
 heading.appendChild(headingText)
 heading.classList.add("blue")
 result.appendChild(heading)
+
+const paragraph = document.createElement("h3")
+paragraph.innerText = "New Paragraph"
+result.appendChild(paragraph)
