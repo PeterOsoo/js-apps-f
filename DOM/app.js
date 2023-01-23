@@ -9,3 +9,8 @@ const headings = document.getElementsByTagName("h3")
 console.log(headings)
 
 headings[1].style.color = "green"
+
+const listItems = document.getElementsByClassName("special")
+console.log(listItems)
+
+listItems[2].style.color = "gray"
