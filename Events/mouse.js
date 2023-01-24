@@ -12,3 +12,11 @@ btn.addEventListener("mousedown", function () {
 btn.addEventListener("mouseup", function () {
 	console.log("Up")
 })
+
+heading.addEventListener("mouseenter", function () {
+	heading.classList.add("blue")
+})
+
+heading.addEventListener("mouseleave", function () {
+	heading.classList.remove("blue")
+})
